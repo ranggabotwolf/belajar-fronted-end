@@ -1,0 +1,23 @@
+h4 {
+  color: blueviolet;
+  font-family: "Courier New", Courier, monospace, serif;
+  font-weight: 1000;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-style: oblique;
+  text-align: center;
+}
+
+p,
+ul {
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+h5 {
+  color: red;
+  font: italic small-caps 700 20px serif;
+  /* Urutan shortcut font styling adalah : style variant weight size/height family;
+  Semuanya harus terurut dengan font size & family yang wajib ada dalam shortcut, bila keduanya belum ada, maka font yang sedang diberikan styling css tidak akan memunculkan perubahan apapun */
+}
