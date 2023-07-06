@@ -1,0 +1,12 @@
+body {
+  background-color: cornsilk;
+  background-image: url(../image/BotWolf.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(78, 190, 39);
+}
