@@ -21,3 +21,8 @@ h5 {
   /* Urutan shortcut font styling adalah : style variant weight size/height family;
   Semuanya harus terurut dengan font size & family yang wajib ada dalam shortcut, bila keduanya belum ada, maka font yang sedang diberikan styling css tidak akan memunculkan perubahan apapun */
 }
+
+#p2 {
+  text-indent: 40px;
+  color: #f279c3;
+}
