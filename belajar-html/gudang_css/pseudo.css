@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+.hello:link {
+  color: orange;
+}
+
+.hello:hover {
+  color: rgb(241, 25, 25);
+  font-variant: small-caps;
+  text-decoration: line-through;
+}
+
+.hello:visited {
+  color: rebeccapurple;
+}
+
+.hello:active {
+  color: green;
+  font-style: italic;
+}
+
+li:first-child a {
+  color: cadetblue;
+}
+
+li:nth-child(3n-1) a {
+  /* nth-child juga bisa menggunakan even untuk genap, dan odd untuk ganjil */
+  color: rgb(241, 25, 25);
+}
+
+li:last-child a {
+  color: rgb(194, 19, 238);
+}
+
+li:nth-child(even) a:hover {
+  color: rgb(224, 221, 4);
+}
+
+p:last-of-type {
+  color: sandybrown;
+  text-align: justify;
+  text-indent: 20px;
+}
