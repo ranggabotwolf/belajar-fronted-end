@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Padding dan Border</title>
+   <link rel="stylesheet" href="../../gudang_css/paddingborder.css">
+</head>
+
+<body>
+   <div class="satu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt tenetur voluptates qui
+      temporibus, accusamus repellendus quis facilis porro quia cum id deserunt eos, quos sint veritatis consectetur
+      explicabo neque?</div>
+   <h4>Catatan Penting!</h4>
+   <p>
+      <ul>
+         <li>Padding tidak bisa diberikan nilai negatif atau auto, kenapa? karena padding adalah batas transparan antara
+            content dan border, dan dalam setiap box model, pasti sebuah konten pasti dibungkus oleh padding, maka dari
+            itu padding tidak bisa
+            diberikan nilai negatif, karena content tidak akan bisa melewati batas padding, karena padding merupakan
+            pembungkus content, dan akan bernilai 0 by default yang mengakibatkan content pasti selalu ditengah by
+            default, makanya tidak bisa
+            diberikan nilai auto pada padding</li>
+         <li>Ukuran padding berpengaruh pada ukuran box, jadi ukuran padding akan menambah ukuran box dari sebuah box
+            model, jadi hati-hati, harap perhitungkan matang-matang masing-masing nilai dari content, padding, maupun
+            border
+         </li>
+         <div class="padding-main">
+            <div class="padding1">Ini adalah contoh padding 1 dalam box model berikut</div>
+            <div class="padding2">Ini adalah contoh padding 2 dalam box </div>
+         </div><br>
+         <li>Ukuran border juga berpengaruh pada ukuran box, jadi ukuran box akan bertambah juga sejumlah tebal border
+         </li>
+         <li>Jadi, rumus dimensi box adalah, Total Dimensi = width/height + Padding + Border</li>
+         <li>Agar box tidak berubah ukurannya ketika ditambahkan border dan padding didalamnya, maka bisa menggunakan
+            property box-sizing, jadi ukuran boxnya tidak akan berubah walaupun kita ganti berkali-kali padding dan
+            bordernya. Seperti contoh berikut
+            :</li>
+         <div class="box-sizing">
+            <div class="padding3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, molestias.</div>
+            <div class="padding4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ab.</div>
+         </div>
+      </ul>
+   </p>
+
+</body>
+
+</html>
