@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Dimensi dan Overflow</title>
+   <link rel="stylesheet" href="../../gudang_css/dimensi.css">
+</head>
+
+<body>
+   <div class="satu">
+      <div class="dua">Hello World</div>
+   </div>
+   <p>Contoh diatas adalah div 2 yang berada dalam parent div 1</p>
+   <p>Ukuran div pada child pada umumnya lebih kecil dari parentnya, dan bila ukuran child lebih besar dibanding
+      parentnya, maka div child nya akan keluar dari kotak / ukuran parentnya, seperti berikut :</p>
+   <div class="satu">
+      <div class="tiga" id="tiga">Hello World</div>
+   </div>
+
+   <p>Maka dari itu, overflow sangat dibutuhkan untuk mengatur agar konten yang ditampilkan tidak melebihi parentnya</p>
+   <p>Overflow mempunyai 4 value, yaitu : </p>
+   <p>
+      <ul>
+         <li class="1"><b>Visible</b>, adalah value default dari overflow, yang mana bila ada konten yang melebihi
+            kotak/ukuran dari parentnya, maka konten akan tetap diperlihatkan, seperti gambar kotak <a href="#tiga"
+               style="text-decoration: none; color:red">diatas</a>
+         </li><br>
+         <li class="2"><b>Auto</b>, adalah value yang bila konten melebihi dari kotak/ukuran parentnya, maka akan muncul
+            scroll secara otomatis sehingga konten tersebut tetap berada dalam kotak/ukuran parentnya. Seperti contoh
+            berikut : </li>
+         <div class="empat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat modi qui deleniti
+            repellendus, eos molestias adipisci blanditiis excepturi animi maxime ad recusandae alias at cum vel nobis
+            delectus amet?Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Perferendis quo modi minima voluptates esse, recusandae beatae magnam quis
+            repellat libero nisi dicta iste inventore consectetur magni vel possimus totam. Veniam?Lorem ipsum dolor sit
+            amet consectetur adipisicing
+            elit. Autem aliquam qui deserunt commodi accusantium iusto minima vel enim praesentium quis illum dolor
+            error odit, delectus veritatis ipsam. Ad, praesentium facere?</div><br>
+         <li class="3"><b>hidden</b>, adalah value yang mana bila konten melebihi kotak/ukuran parentnya, maka konten
+            yang melebihi tersebut akan di sembunyikan. Seperti contoh berikut</li>
+         <div class="lima">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda quidem
+            consectetur earum natus repudiandae sapiente mollitia delectus laborum, libero inventore voluptates nulla,
+            ipsum eius laudantium quas aut nesciunt voluptatum?Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Quam esse quasi ad rem est adipisci voluptatem neque,
+            dignissimos dolorem! Nostrum iste excepturi ea. Illum aliquid commodi voluptates eveniet voluptatum quidem.
+         </div><br>
+         <li class="4"><b>scroll</b>, adalah value yang akan selalu menampilkan scroll walaupun konten yang ditampilkan
+            tidak melebihi kotak/ukuran parentnya. Seperti berikut :</li>
+         <div class="enam">Ini adalah contoh value Overflow scroll</div>
+      </ul>
+   </p>
+</body>
+
+</html>
