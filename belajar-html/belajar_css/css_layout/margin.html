@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Margin CSS</title>
+   <link rel="stylesheet" href="../../gudang_css/margin.css">
+</head>
+
+<body>
+   <div class="satu">1</div>
+   <div class="dua">2</div>
+   <div class="tiga">3</div>
+
+   <h4>Catatan Penting!</h4>
+   <br>
+   <p>
+      <ul>
+         <li>Jika vertical, margin yang akan diambil adalah margin yang nilainya terbesar antara bottom kotak 1 dan top
+            kotak 2, tetapi jika horizontal, maka nilai marginnya akan ditambah antara right kotak 1 dan left kotak 2.
+            Seperti contoh berikut :
+         </li>
+         <div class="vertical">
+            <p>Margin Vertical</p>
+            <div class="empat">kotak 1</div>
+            <div class="lima">kotak 2</div>
+         </div>
+         <div class="horizontal">
+            <p>Margin Horizontal</p>
+            <div class="enam">kotak 1</div>
+            <div class="tujuh">kotak 2</div>
+         </div>
+         <li>Margin yang bernilai negatif akan bergerak berlawanan arah, dan kotak/elemen yang berada dibawahnya akan
+            mengikuti arah tersebut. Seperti contoh berikut :</li>
+         <div class="negatif-margin">
+            <p>Negatif Margin</p>
+            <div class="delapan">8</div>
+            <div class="sembilan">9</div>
+            <div class="sepuluh">10</div>
+         </div>
+         <p>Pada kasus diatas, kotak dengan nomor 9 mempunyai margin top -50px, jadi kotak nomor 9 mengarah keatas
+            sebanyak 50px, kotak nomor 10 pun mengikuti arah yang sama dengan jumlah px yang sama</p>
+         <p>Shorthand margin bisa diisi dengan 4 nilai, yaitu :</p>
+         <ul>
+            <li><b>margin : 50px</b>, artinya margin top, right, bottom dan left nya akan berukuran 50px</li>
+            <div class="margin">
+               <div class="sebelas">11</div>
+            </div><br><br>
+            <li><b>margin : 50px auto</b>, angka pertama untuk top-bottom, angka kedua untuk left-right. Jadi margin top
+               dan bottom akan bernilai 50px sementara margin left dan right nya akan bernilai auto</li>
+            <div class="margin">
+               <div class="duabelas">12</div>
+            </div><br><br>
+            <li><b>margin : -50px auto 20px</b>, angka pertama untuk top, angka kedua untuk left-right dan angka ketiga
+               untuk bottom. Jadi margin top akan bernilai -50px, margin left dan right akan bernilai auto, sementara
+               margin bottom akan bernilai
+               20px
+            </li>
+            <div class="margin">
+               <div class="extra">x</div>
+               <div class="tigabelas">13</div>
+            </div><br><br>
+            <li><b>margin : 10px 20px 30px 40px</b>, angka pertama untuk top, angka kedua untuk right, angka ketiga
+               untuk bottom, dan angka keempat untuk left. Jadi nilai margin akan searah jarum jam dimulai dari top
+               sehingga menjadi, top : 10px, right
+               : 20px, bottom : 30px, dan left : 40px</li>
+            <div class="margin">
+               <div class="empatbelas">14</div>
+               <div class="extra">x</div>
+            </div>
+         </ul>
+      </ul>
+   </p>
+</body>
+
+</html>

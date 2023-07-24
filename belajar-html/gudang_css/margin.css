@@ -1,0 +1,139 @@
+.satu {
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.dua {
+  background-color: rgb(240, 27, 27);
+  width: 100px;
+  height: 100px;
+}
+
+.tiga {
+  background-color: rgb(54, 255, 13);
+  width: 50px;
+  height: 50px;
+}
+
+.empat {
+  background-color: rgb(4, 233, 250);
+  width: 60px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.lima {
+  background-color: rgb(255, 130, 13);
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.vertical {
+  background-color: antiquewhite;
+  width: 100px;
+  height: 150px;
+  overflow: auto;
+  display: inline-block;
+}
+
+.horizontal {
+  background-color: antiquewhite;
+  width: 180px;
+  height: 150px;
+  overflow: auto;
+  display: inline-block;
+}
+
+.enam {
+  background-color: rgb(69, 255, 13);
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.tujuh {
+  background-color: rgb(166, 13, 255);
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.horizontal div {
+  display: inline-block;
+}
+
+.negatif-margin {
+  background-color: antiquewhite;
+  width: 240px;
+  height: 240px;
+  overflow: auto;
+  display: inline-block;
+}
+
+.delapan {
+  background-color: rgb(13, 146, 255);
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sembilan {
+  background-color: rgb(255, 190, 13);
+  width: 80px;
+  height: 80px;
+  margin: -50px auto 0px;
+}
+
+.sepuluh {
+  background-color: rgb(255, 49, 13);
+  width: 40px;
+  height: 40px;
+  margin: 0px auto;
+}
+
+.margin {
+  background-color: antiquewhite;
+  width: 240px;
+  height: 240px;
+  overflow: auto;
+  display: inline-block;
+}
+
+.sebelas {
+  background-color: rgb(122, 255, 13);
+  width: 40px;
+  height: 40px;
+  margin: 50px;
+}
+
+.duabelas {
+  background-color: rgb(13, 219, 255);
+  width: 40px;
+  height: 40px;
+  margin: 50px auto;
+}
+
+.tigabelas {
+  background-color: rgb(255, 13, 215);
+  width: 40px;
+  height: 40px;
+  margin: -50px auto 20px;
+}
+
+.empatbelas {
+  background-color: rgb(36, 202, 166);
+  width: 40px;
+  height: 40px;
+  margin: 10px 20px 30px 40px;
+}
+
+.extra {
+  background-color: rgb(255, 153, 0);
+  width: 60px;
+  height: 60px;
+  margin: 30px auto;
+}
