@@ -1,0 +1,164 @@
+.satu,
+.dua,
+.tiga {
+  width: 100px;
+  height: 100px;
+}
+
+.satu {
+  background-color: aqua;
+}
+
+.dua {
+  background-color: rgb(240, 79, 79);
+  float: right;
+  /* margin-left: 20px; */
+}
+
+.tiga {
+  background-color: rgb(20, 209, 20);
+}
+
+.container,
+.main,
+.gallery,
+.multicolumn {
+  width: 300px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+}
+
+img {
+  width: 100px;
+  float: left;
+  margin: 5px;
+}
+
+.gambar1 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: salmon;
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar2 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(86, 172, 65);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar3 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(36, 95, 184);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar4 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(214, 102, 224);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar5 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(221, 51, 32);
+  text-align: center;
+  line-height: 90px;
+  margin: auto;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar6 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(240, 191, 32);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar7 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(27, 109, 124);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar8 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(138, 54, 235);
+  text-align: center;
+  line-height: 90px;
+  margin: auto;
+  float: left;
+  font-size: 30px;
+}
+
+.gambar9 {
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: rgb(9, 228, 210);
+  text-align: center;
+  line-height: 90px;
+  float: left;
+  font-size: 30px;
+}
+
+.gb {
+  margin: 2px;
+}
+
+.kiri {
+  width: 50px;
+  height: 200px;
+  background-color: slateblue;
+  float: left;
+}
+
+.tengah {
+  width: 180px;
+  height: 200px;
+  background-color: saddlebrown;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.kanan {
+  height: 200px;
+  width: 70px;
+  background-color: seagreen;
+  float: left;
+}
