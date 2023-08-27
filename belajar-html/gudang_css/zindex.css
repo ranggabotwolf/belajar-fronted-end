@@ -1,0 +1,118 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+
+.cf {
+  *zoom: 1;
+}
+
+.container {
+  width: 1000px;
+  height: 1000px;
+}
+
+div {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.con1 {
+  float: left;
+}
+
+.satu {
+  background-color: rgb(240, 33, 33);
+}
+
+.dua {
+  background-color: turquoise;
+  top: 40px;
+  left: 40px;
+}
+
+.tiga {
+  background-color: rgb(39, 139, 19);
+  top: 80px;
+  left: 80px;
+}
+
+.text1 {
+  padding-right: 10px;
+}
+
+.empat {
+  background-color: rgb(240, 33, 33);
+  z-index: 1;
+}
+
+.lima {
+  background-color: turquoise;
+  top: 30px;
+  left: 30px;
+}
+
+.enam {
+  background-color: rgb(39, 139, 19);
+  top: 60px;
+  left: 60px;
+}
+
+p,
+.text1 {
+  padding-right: 650px;
+  text-align: justify;
+}
+
+.iklan {
+  background-color: black;
+  top: 250px;
+  right: 100px;
+  left: 150px;
+  bottom: 100px;
+  color: white;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 9999;
+  font-size: 11px;
+}
+
+.close {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  text-align: center;
+  top: -8px;
+  right: -8px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Z-Index</title>
+   <link rel="stylesheet" href="../../gudang_css/zindex.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="con1">
+         <div class="satu"></div>
+         <div class="dua"></div>
+         <div class="tiga"></div>
+      </div>
+      <br><br><br><br><br><br><br><br>
+      <p class="cf text1">Kotak yang berwarna hijau diatas berada di paling atas posisi nya, karena dideklarasikan
+         paling terakhir </p>
+      <p>Ada cara agar kita bisa mengatur elemen apa yang ingin kita tampilkan di paling depan layar tanpa harus
+         mengubah urutan deklarasi dari elemen tersebut, yaitu menggunakan z-index.</p>
+      <p>Semakin besar nilai z-index, maka akan semakin dekat dengan user / tampil paling depan, begitu juga sebaliknya,
+         semakin kecil nilai z-index suatu elemen, maka akan berada semakin jauh dari tampilan ke user</p>
+      <p>Seperti contoh dibawah, kita akan mengubah kotak merah yang akan tampil paling atas</p>
+      <div class="con2">
+         <div class="empat"></div>
+         <div class="lima"></div>
+         <div class="enam"></div>
+      </div>
+      <br><br><br><br><br><br><br>
+      <p>Pada gambar diatas terlihat bahwa kotak warna merah telah berada di paling depan, karena telah diberikan nilai
+         z-index, sementara elemen lain tidak memiliki z-index
+      </p>
+
+      <div class="iklan">
+         <div class="close">X</div>
+         <h4>Ini adalah Iklan</h4>
+      </div>
+   </div>
+</body>
+
+</html>
