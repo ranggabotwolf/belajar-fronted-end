@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Position Absolute & Fixed</title>
+   <link rel="stylesheet" href="../../gudang_css/cssabsfix.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="con1">
+         <div class="satu">1</div>
+         <div class="dua">2</div>
+         <div class="tiga">3</div>
+      </div>
+      <p>Kotak nomor 3 tidak terlihat setelah kita memberikan position absolute pada kotak nomor 2, kenapa?</p>
+      <p>Karena ketika kita memberikan position absolute pada suatu elemen, maka elemen itu akan berada di luar normal
+         flow, dan tidak seperti position relative yang mana posisi sebelumnya dari elemen tersebut masih dianggap ada,
+         position absolute ini
+         akan mengakibatkan posisi sebelumnya dari elemen tersebut dianggap tidak ada, maka dari itu elemen yang berada
+         dibawah elemen tersebut akan naik keatas mengisi posisi elemen yang diberikan posisi absolute</p>
+      <p>Dan 1 lagi, posisi dari elemen yang diberikan position absolute adalah relative terhadap parentnya, tidak
+         seperti position relative yang posisi nya relative terhadap posisi sebelumnya. Dengan catatan, position
+         parent-nya juga harus sama-sama berada
+         di luar normal flow (mengubah position parent-nya menjadi relative / absolute juga), seperti contoh dibawah</p>
+      <p>
+         <h4>Tabel 1</h4>
+      </p>
+      <div class="con2">
+         <div class="empat"></div>
+         <div class="lima"></div>
+         <div class="enam"></div>
+      </div>
+      <p class="tab1 cf">Pada <b>Tabel 1</b> disamping, seharusnya posisi kotak warna biru berada di pojok kanan dari
+         border, karena telah diberikan top dan right 0, tetapi kotak biru malah keluar dari border, dan bahkan berada
+         pada pojok kanan dari window / body. Ini
+         dikarenakan parent-nya position nya adalah normal flow, mari kita ganti dengan position relative untuk
+         parent-nya
+      </p>
+      <h4>Tabel 2</h4>
+      <div class="con3">
+         <div class="tujuh"></div>
+         <div class="delapan"></div>
+         <div class="sembilan"></div>
+      </div>
+      <p class="tab2">Pada <b>Tabel 2</b> disamping, posisi kotak biru sudah benar, yaitu berada di pojok kanan dari
+         border, karena bordernya sudah diberikan position relative, sehingga kotak biru tidak keluar lagi dari
+         parent-nya (elemen kotak biru dan parent-nya
+         sudah berada dalam dimensi yang sama)</p>
+
+      <div class="header">
+         <h3>Ini Adalah Footer</h3>
+      </div>
+   </div>
+</body>
+
+</html>
