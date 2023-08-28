@@ -1,0 +1,70 @@
+.kotak {
+  width: 200px;
+  height: 200px;
+  background-color: salmon;
+  line-height: 200px;
+  text-align: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.kotak2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(179, 240, 67);
+  line-height: 200px;
+  text-align: center;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.kotak3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(67, 113, 240);
+  line-height: 200px;
+  text-align: center;
+  border-radius: 50% 50% 0;
+  -webkit-border-radius: 50% 50% 0;
+  -moz-border-radius: 50% 50% 0;
+  -ms-border-radius: 50% 50% 0;
+  -o-border-radius: 50% 50% 0;
+}
+
+.kotak4 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../image/BotWolf.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position-y: -10px;
+  background-color: rgb(67, 113, 240);
+  line-height: 200px;
+  text-align: center;
+  border-radius: 50% 50% 0;
+  -webkit-border-radius: 50% 50% 0;
+  -moz-border-radius: 50% 50% 0;
+  -ms-border-radius: 50% 50% 0;
+  -o-border-radius: 50% 50% 0;
+}
+
+.kotak5 {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+}
+
+.kotak6 {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+  overflow: hidden;
+  border-radius: 50% 0% 50%;
+  -webkit-border-radius: 50% 0% 50%;
+  -moz-border-radius: 50% 0% 50%;
+  -ms-border-radius: 50% 0% 50%;
+  -o-border-radius: 50% 0% 50%;
+}
