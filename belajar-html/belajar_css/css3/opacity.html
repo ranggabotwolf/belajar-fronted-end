@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <link rel="stylesheet" href="../../gudang_css/opacity.css">
+</head>
+
+<body>
+    <div class="kotak"></div>
+    <p>
+        Terlihat dari kotak diatas, warna nya agak tembus pandang sehingga kita bisa melihat background yang ada dibelakangnya. Ini bisa dilakukan dengan cara memberikan opacity terhadap kotak tersebut.
+    </p>
+    <div class="kotak1">
+        <div class="kotak2"></div>
+    </div>
+    <p>Terlihat kotak warna ungu diatas juga ikut transparan, hal itu terjadi karena parent-nya, yaitu kotak warna biru telah diberi opacity, jadi child otomatis mewarisi opacity dari parent-nya. Tetapi tidak sebaliknya, kita tidak bisa mengatur child tidak
+        transparan sementara parent-nya sudah transparan</p>
+
+    <div class="kotak3">
+        <div class="kotak4"></div>
+    </div>
+</body>
+
+</html>
