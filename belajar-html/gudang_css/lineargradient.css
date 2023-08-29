@@ -11,3 +11,15 @@
   margin: 50px auto;
   background-image: linear-gradient(90deg, red 45%, rgb(14, 230, 230));
 }
+
+.kotak2 {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+  background: radial-gradient(
+    circle closest-corner at 1px 132px,
+    red 20%,
+    rgb(14, 230, 230),
+    rgb(24, 56, 89)
+  );
+}
