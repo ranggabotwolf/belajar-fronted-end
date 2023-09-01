@@ -1,0 +1,18 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Rubik Iso", cursive;
+  color: hotpink;
+}
+
+@font-face {
+  font-family: "rungkad";
+  src: url("../font/RUNGKAD.ttf") format("truetype");
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "rungkad", arial;
+  text-align: center;
+  color: cyan;
+}
