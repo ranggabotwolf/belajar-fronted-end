@@ -1,0 +1,21 @@
+img {
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+}
+
+p {
+    text-align: justify;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(14, 155, 211);
+    font-size: 14px;
+}
