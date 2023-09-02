@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <link rel="stylesheet" href="../../gudang_css/transition.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="kotak"></div>
+    <div class="container">
+        <div class="kotaknew kotak2">ease</div>
+        <div class="kotaknew kotak4">ease-in</div>
+        <div class="kotaknew kotak5">ease-out</div>
+        <div class="kotaknew kotak6">ease-in-out</div>
+        <div class="kotaknew kotak7">linear</div>
+        <div class="kotaknew kotak8">cubic bezier</div>
+    </div>
+    <p>Pada kotak diatas kita menggunakan transition dengan transform untuk bisa menjadi seperti itu, Perbedaan antara transition dan animation adalah transition adalah bila hanya ada titik awal dan titik akhir dari sebuah elemen yang ingin kita transisikan.
+        Sementara animation adalah bila terdapat lebih dari 2 keadaan / keyframes sehingga akan membentuk pergerakan lebih dari 2x</p>
+    <p>Perbedaan antara transition dibawah dengan transition diatas adalah transition yang dibawah transitionnya bukan di set all (hanya di set margin-left) nya saja, sehingga hanya pergerakan elemen ke kanan saja yang di animasi kan, sementara perubahan
+        warna dan bentuk elemen terjadi secara instan</p>
+    <div class="container2">
+        <div class="kotak3"></div>
+    </div>
+</body>
+
+</html>
