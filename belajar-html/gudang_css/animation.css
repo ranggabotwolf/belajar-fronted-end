@@ -1,0 +1,21 @@
+.kotak {
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+    animation: animasikotak 2s infinite alternate;
+    -webkit-animation: animasikotak 2s infinite alternate;
+}
+
+@keyframes animasikotak {
+    0% {
+        width: 100px;
+    }
+    50% {
+        width: 250px;
+    }
+    100% {
+        width: 250px;
+        height: 250px;
+        background-color: aqua;
+    }
+}
